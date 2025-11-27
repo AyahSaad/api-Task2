@@ -1,4 +1,5 @@
-﻿using KASHOP.DAL.DTO.Response;
+﻿using KASHOP.DAL.DTO.Request;
+using KASHOP.DAL.DTO.Response;
 using KASHOP.DAL.Models;
 using KASHOP.DAL.Repository;
 using Mapster;
@@ -18,9 +19,12 @@ namespace KASHOP.BLL.Service
         {
             _categoryRepository=categoryRepository;
         }
-        public Category CreateCategory(Category Request)
+        public CategoryResponse CreateCategory(CategoryRequest Request)
         {
-            throw new NotImplementedException();
+
+            var category = Request.Adapt<Category>();
+            _categoryRepository.Create(category);
+            return category.Adapt<CategoryResponse>();
         }
 
         public List<CategoryResponse> GetAllCategories()
