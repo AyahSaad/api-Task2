@@ -1,7 +1,16 @@
 # KASHOP ASP.NET Core Web API
 
-**KASHOP** is an ASP.NET Core Web API project designed as part of the Knowledge Academy ASP.NET course.  
+**KASHOP** is an ASP.NET Core Web API project designed as part of the **Knowledge Academy ASP.NET course**.  
 This project is currently under development and serves as a learning and practice platform for building secure and scalable web applications.
+
+---
+
+## 🌟 Key Highlights
+
+- **3-Tier Architecture**: DAL (Data Access Layer), BLL (Business Logic Layer), PL (Presentation Layer)  
+- **JWT Authentication & Role-Based Access Control**  
+- **Repository Pattern** for clean and maintainable code  
+- **Product, Order, and Cart Management**
 
 ---
 
@@ -19,7 +28,7 @@ This project is currently under development and serves as a learning and practic
 
 ## 📂 Project Structure
 
-The project follows a layered architecture for better maintainability:
+The project follows a **layered architecture** for better maintainability:
 
 - **Controllers** – Handle HTTP requests and return responses.  
 - **Models / DTOs** – Define data structures for API requests and responses.  
