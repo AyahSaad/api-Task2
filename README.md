@@ -34,9 +34,3 @@ The project follows a layered architecture for better maintainability:
 - The project is **currently under development** as part of the ASP.NET course at Knowledge Academy.  
 - Core functionalities like authentication, authorization, and basic CRUD operations are in progress.  
 ---
-
-## 📌 How to Run
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/AyahSaad/KASHOP_ASP.NET.git
